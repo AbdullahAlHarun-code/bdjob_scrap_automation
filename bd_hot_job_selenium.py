@@ -166,6 +166,3 @@ if __name__ == "__main__":
         main()
     else:
         schedule_every_5_minutes()
-
-if __name__ == "__main__":
-    main()
