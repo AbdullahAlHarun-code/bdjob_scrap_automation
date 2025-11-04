@@ -130,7 +130,7 @@ def send_jobs_to_api(jobs, api_url="https://abdullah007ie.pythonanywhere.com/n8n
         print("No jobs to send")
         return
 
-    api_url = api_url or os.environ.get('HOT_JOBS_API_URL', 'http://127.0.0.1:8000/n8n/send-data/')
+    api_url = api_url or os.environ.get('HOT_JOBS_API_URL', 'https://abdullah007ie.pythonanywhere.com/n8n/send-data/')
     try:
         print(f"Posting {len(jobs)} jobs to {api_url}...")
         resp = requests.post(api_url, json=jobs, timeout=30)

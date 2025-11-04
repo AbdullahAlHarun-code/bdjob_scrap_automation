@@ -382,7 +382,7 @@ def main():
         print("="*60)
         
         # Send to API (if API_URL is set)
-        api_url = os.environ.get('API_URL', 'http://127.0.0.1:8000/bdgovjob/send-data/')
+        api_url = os.environ.get('API_URL', 'https://abdullah007ie.pythonanywhere.com/bdgovjob/send-data/')
         scraper.send_jobs_to_api(api_url)
         
         # Print summary statistics
