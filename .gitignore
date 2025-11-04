@@ -1,0 +1,89 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Scraped Data Files (these are output, not source)
+bdgovtjob_data.json
+bdgovtjob_data.csv
+bdjobs_hot_jobs_latest.csv
+bd_hot_job_data.json
+bd_hot_job_data.csv
+*.csv
+*.json
+# Exception: Keep example/template files
+!*_example.json
+!*_template.csv
+
+# Debug Files
+debug_*.html
+*.html
+# Exception: Keep documentation HTML
+!docs/*.html
+
+# Logs
+*.log
+scraper.log
+bdgovtjob_scraper.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Chrome Driver
+chromedriver
+chromedriver.exe
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment Variables
+.env
+.env.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+db.sqlite3
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# OS Files
+Thumbs.db
+desktop.ini
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Zip/Archive files (unless specifically needed)
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Django migration files (if any)
+**/migrations/*.py
+!**/migrations/__init__.py
+
